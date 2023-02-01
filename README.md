@@ -1,7 +1,7 @@
 # Todo-Backend for the Angular Store Examples project
 
 This backend was created in node using Express and TypeORM. 
-if you want to test the backend or the full interaction with the angular store examples porject than follow the instructions.
+if you want to test the backend or the full interaction with the angular store examples project than follow the instructions.
 
 1. Copy the repository.
 ```csharp
