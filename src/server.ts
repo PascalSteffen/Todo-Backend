@@ -40,7 +40,7 @@ function setupExpress() {
     app.route('/api/todos/').post(checkIfAuth, createTodo);
     app.route('/api/todos/:todoId').delete(checkIfAuth, deleteTodo);
 
-    app.route('/api/users').post(checkIfAuth, checkIfAdmin, createUser);
+    app.route('/api/users').post(/* checkIfAuth, checkIfAdmin, */ createUser);
     app.route('/api/login').post(login);
 
     app.use(defaultErrorHandler);
